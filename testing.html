@@ -6,24 +6,33 @@
     <title>Document</title> 
     <style>
         body{
-            background-color :rgba(255, 255, 0, 0.61);
-            height: 20%;
+            background-color :rgba(202, 202, 190, 0.61);
+            height: 0px;
         }
         .header img{
 float: left;
-width: 10px;
-height: 10px;
+width: 5px;
+height: 5px;
         }
         .header h1{
             top: 10%;
-            left: auto;
+            left: Center;
         }
         .name{
-            font-size: 4em;
+            font-size: 50px;
         }
-        .foot address{
+        /* .foot address{
             font-size: 1em;
-        }
+     */
+     footer {
+        padding: 10px 20px;
+        background: #666;
+        color: white;
+      }
+      .ul {
+          align-items: center;
+      }
+    
 p{
   font-size: 20;
   font-style: italic;  
@@ -33,32 +42,40 @@ h1{
  font-size: medium;   
 }
 .logo{
-    height: fit-content;
-    width: auto;
+    height: 50px;
+    width: 40px;
 }
+ 
+ .image {
 
-     <img src="kaeme-unsplash (1).jpg"alt ="picture1"><img src="kaeme--unsplash.jpg"alt ="picture2">
-     
-   
-    </style>
+     align-content: center;
+ }
+</style>
 
+<img src ="logo.jpg"height="100"width="200">
+<div class="row">
+     <img src="skin care.webp"alt="picture1" height="400" width="500">
+     <img src="skin care 2.webp"alt ="picture2" height="400 width="500">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
 <body>
     
-                      
-    <div class="header">
-   <img src ="logo.jpg">
-</div>
-<h1 class="name">BONTLEJWAME SKIN CARE</h>
+<h1 class="name">WELCOME TO BONTLEJWAME SKIN CARE</h>
 <!-- Add all your Products here-->
 <p>Bontlejwame skin care was developed by an aesthetician with 20 year experience in the beaty industry.<br>Bontlejwame skin care is an organic range,offering you professional results at home.The serums consists of vitamins,plant extract and essential oil. <br>They contain no chemicaks or parabens. <br>BONTLEJWAME SKIN CARE,,WE CARE FOR YOUR SKIN.</p>
 
 <h1>photos</h1>
-<div class="row align-items-center">
+<div class="colums align-items-center">
     <div class="col">
         <img src="tissue oil1.jpg"height="200"width="250">
-
+        <p>tissue oil is good for dry skin in winter</p>
+        <p>price=R120</p>?
+        <form action="/form/submit" method="GET or POST" >
+            <label for="tissue oil">tissue oil</label>
+            <input type="submit" value="Submit"/><br><br>
+            <label for="massage oil">massage oil</label>
+            <input type="submit" value="submit"/>
         
 </div>
 <div class="col">
@@ -104,25 +121,32 @@ h1{
 </div>
 
 <div class="col">
-    <img src="Cerave-Cleanser.webp"height="200"width="250">
+    <img src="Coconut-Face-Toner.webp"height="200"width="250">
     <p>Removes oil on skin without disrupting the protective skin barriar</p>
     <p>Cerave=R150</p>
     <button>buy</button><br><br>
 </div>
 </div>
 <!--End of Products-->
-<video ="https://www.youtube.com/watch?v=ECuzOCtoiw > </video>
+<video href ="https://www.youtube.com/watch?v=ECuzOCtoiw" > </video>
 
     <footer class="foot">
-        <address>
-             22539 Elijah Barayi Street,<br>
+        
+            <p> 22539 Elijah Barayi Street,<br>
              Khayelitsha,<br>
              Cape Town,<br>
              7784 
-        </address>
-         
-        
+            </p>
+            <footer>
+                <ul>
+                    <li><a href="mbelesamora857@gmail.com"><i class="fa fa-envelope-open"></i>mbelesamora857@gmail.com</a></li>
+                    <li><a href="#"><i class="fa facebook"></i>facebook</a></li>
+                    <li><a href="#"><i class="fa instagram"></i>instagram</a></li>
+                    <li><a href="#"><i class="fa youtube"></i>youtube</a></li>
+                    <li><a href="#"><i class="fa whatsApp"></i>whatsApp</a></li>
 
+                </ul>
+              </footer>
     </footer>
 </body>
 </html>
